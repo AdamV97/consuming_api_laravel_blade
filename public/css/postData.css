@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-image: url('../img/double-bubble.png');
+}
+
+.post-body-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.post-body-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(128, 128, 128);
+  width: 50%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: rgb(235, 236, 237);
+}
+
+.post-body-main>div>h3{
+  text-transform: uppercase;  
+}
+
+.post-body-main>div>label{
+  text-transform: capitalize;
+}
+
+.post-data-title{
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.post-data-body{
+  margin: 10px;
+}

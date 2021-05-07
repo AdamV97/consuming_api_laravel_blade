@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-image: url('../img/double-bubble.png');
+}
+
+.home-container-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.post-general{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(235, 236, 237);
+  padding: 10px;
+}
+.post-general:hover{
+  cursor: pointer;
+  background-color: rgb(189, 189, 189);
+}
+
+.home-label-title{
+  text-transform: capitalize;
+}
+.home-label-title:hover{
+  cursor: pointer;
+}
+
+.post-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-pagination>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(235, 236, 237);
+}
+
+.active{
+  background-color: rgb(226, 255, 226) !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.post-pagination>a:hover{
+  background-color: rgb(226, 255, 226);
+}
